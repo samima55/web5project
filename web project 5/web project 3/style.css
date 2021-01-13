@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Shadows+Into+Light&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main{
+	background-color: #E0F6ED;
+	align-content: center;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	position:fixed;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    border-bottom-style: solid; 
+  border-width: 1.5px; 
+  border-color: white; 
+    background-color: #50c878;
+
+}
+.logo{
+    width: 100px;
+    display: inline-flex;
+}
+
+.logo img{
+    margin: auto 5px;
+    float: right;
+       width: 50px;
+     height: auto;
+  border-radius:50%; 
+  cursor: pointer;
+}
+
+
+
+a{
+	text-decoration: none;
+	color: green;
+}
+
+h1{
+	font-family: 'Shadows Into Light', cursive;
+	color: darkgreen;
+	font-size: 50px;
+	margin-right: auto;
+}
+
+
+
+.nav-link-ul li {
+	display: inline-block;
+	padding: 20px;
+	background-color: lightgreen;
+	border-radius: 60%
+
+}
+
+.nav-link-ul li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav-link-ul li a:hover {
+	font-weight: bold;
+}
+
+
+
+
+#submit{
+	padding: 10px;
+	background-color: lightgreen;
+	border:none;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+}
+
+
+#submit:hover {
+  background-color: green;
+  padding: 15px;
+}
+
+ header ul {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;  
+  display: flex-grid; 
+  padding: 0em .5em .5em .5em;
+  list-style: none;
+  margin :10px;
+  
+} 
+
+header li {
+  display: flex;
+  justify-content: center;
+  padding: .5em;
+}  
+
+#video-div{
+	padding: 100px;
+   
+}
+
+
+#video{
+	width: 90%;
+	margin: 30px;
+	display: block;
+	justify-content: center;
+}
+
+#about{
+
+	width: 50%;
+	height:auto;
+   justify-content: center;
+   margin: 30px;
+   display: block;
+   text-align: center;
+   background-color: #d0f0c0;
+   padding: 30px;
+    margin-left: 320px;
+    border-radius: 20%;
+    margin-bottom: 100px;
+}
+
+
+#services{
+	
+       align-items:center;
+	  text-align: center;
+}
+
+
+.service{
+	  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      border-radius:30%
+}
+
+
+#form-div{
+  	width: 50%;
+	height: 100px;
+ 
+     margin: 30px;
+    display: block;
+    border-radius: 20%;
+    margin-bottom: 100px;
+     margin-top: 100px;
+     margin-left: 320px;
+    background-color: #d0f0c0;
+      text-align: center;
+       align-items:center;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color:  #aaf0d1;
+  }
+  #about{
+  	margin-left: 120px;
+  }
+  #form-div{
+  	margin-left: 120px;
+  }
+}

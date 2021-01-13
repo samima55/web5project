@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+		<!-- jQuery and JS bundle w/ Popper.js -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+           <link rel="stylesheet" type="text/css" href="style.css">
+       
+                   <title> Technical Pages</title>
+     </head>
+	
+          
+      
+         <body class="fluid-container">
+
+            <div class="row" id="top-head">
+              <div class="col-12">
+                 <header id="title">
+                   <p id="title-text">For Java Lovers</p> 
+               </header>
+              </div>
+            </div>
+
+
+            <div class="row">
+            	 <div class="col-md-3" id="nav-div">  
+         <nav id="navbar">
+       <header id="nav-head">Java Documentation</header>
+       <ul>
+       <li> <a  class="nav-link" href="#what_is_java">WHAT IS JAVA</a></li>
+ <li> <a  class="nav-link" href="#GET_STARTED">GET STARTED</a></li>
+       <li> <a  class="nav-link" href="#java_syntax">JAVA SYNTAX</a></li>
+       <li> <a  class="nav-link" href="#comments">COMMENTS</a></li>
+       <li> <a  class="nav-link" href="#variables">Variables</a></li>
+       </ul>
+
+   </nav>
+     </div>
+
+       <div class="col-md-9">   
+       <main id="main-doc"  class="container">
+        <section class="main-section" id="what_is_java">
+            <header><h1>what is java</h1></header>
+             <article>
+                <p>
+                Java is a popular programming language, created in 1995.
+                </p>
+                <p> It is owned by Oracle, and more than 3 billion devices run Java.</p>
+                <p>
+                It is used for:
+                  <ul>
+                    <li>Mobile applications (specially Android apps)</li>
+                    <li> Desktop applications </li>
+                    <li> Web applications</li>
+                    <li> Web servers and application servers</li>
+                    <li> Games</li>
+                    <li> Database connection</li>
+                    <li> And much, much more!</li>
+
+                  </ul>
+                </p>
+             </article>
+        </section>
+          
+          <section class="main-section" id="GET_STARTED">
+          
+            <header><h1>GET STARTED</h1></header>
+            <article>
+                <h2> Java Install</h2>
+                <p>
+                    Some PCs might have Java already installed.
+                </p>
+                <p>
+                    To check if you have Java installed on a Windows PC, search in the start bar for Java or type the following in Command Prompt (cmd.exe)
+                </p>
+                <p>
+                    If you do not have Java installed on your computer, you can download it for free at <a href="https://www.oracle.com/java/technologies/java-se-glance.html" target="_blank">oracle.com.</a> 
+                </p>
+                <p>
+                    <b>Note:</b> In this tutorial, we will write Java code in a text editor. However, it is possible to write Java in an Integrated Development Environment, such as IntelliJ IDEA, Netbeans or Eclipse, which are particularly useful when managing larger collections of Java files.
+                </p>
+            </article>
+      
+          </section>
+
+            <section class="main-section"  id="java_syntax">
+            <header> <h1>Java Syntax</h1></header>
+            <article>
+                
+                <p>
+                    In the previous chapter, we created a Java file called MyClass.java, and we used the following code to print "Hello World" to the screen:
+                </p>
+                <p>
+                    <img src="https://cdn.journaldev.com/wp-content/uploads/2016/08/public-static-void-main-string-args.png">
+                </p>
+                <p>
+                    Every line of code that runs in Java must be inside a class. In our example, we named the <b>class</b>
+                </p>
+                <p>
+                    <b>MyClass.</b> A class should always start with an uppercase first letter.
+                </p>
+                <p>
+                    <b>Note:</b>Java is case-sensitive: "MyClass" and "myclass" has different meaning.
+                </p>
+                           <code>
+                            public class MyClass { <br>
+                                  int x = 5;<br>
+                                         }<br>
+                           </code>
+                       <br>
+                           <code>
+                            public class MyClass {<br>
+                                   int x = 5;<br><br>
+
+                      public static void main(String[] args) {<br>
+                      MyClass myObj = new MyClass();<br>
+                      System.out.println(myObj.x);<br>
+                           }<br>
+                         }<br>
+                           </code> <br> 
+               <code>
+                            public class MyClass {<br>
+                                   int x = 5;<br><br>
+
+                      public static void main(String[] args) {<br>
+                      MyClass myObj = new MyClass();<br>
+                      System.out.println(myObj.x);<br>
+                           }<br>
+                         }<br>
+                           </code> <br> 
+              
+            </article>
+            
+          </section>
+
+
+           <section class="main-section"  id="comments">
+            <header><h1>Comments</h1></header>
+                 <p>
+                    Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+                 </p>
+                 <p>
+                    Single-line comments start with two forward slashes (//).
+                 </p>
+                 <p>
+                    Any text between // and the end of the line is ignored by Java (will not be executed).
+                 </p>
+
+                     <p>
+                        This example uses a single-line comment before a line of code:
+                     </p>
+                     <p>
+                        <img src="https://i2.wp.com/francescolelli.info/wp-content/uploads/2019/08/CommentsInYourCode.png?fit=1101%2C395&ssl=1">
+                     </p>
+                     <code>
+                        // This is a comment <br>
+                     </code> <br> 
+                  <code>
+                    /* The code below will print the words Hello World <br>
+                       to the screen, and it is amazing */
+                  </code> <br> <br>
+                        
+
+           </section>
+
+           <section class="main-section"  id="variables">
+               <header><h1>Variables</h1></header>
+                   <p>
+                    Variables are containers for storing data values.
+                   </p>
+                    <p>
+                        In Java, there are different <b>types</b> of variables, for example:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>String - stores text, such as "Hello". String values are surrounded by double quotes</li>
+                            <li>int - stores integers (whole numbers), without decimals, such as 123 or -123</li>
+                            <li>float - stores floating point numbers, with decimals, such as 19.99 or -19.99</li>
+                            <li>char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes</li>
+                            <li>
+                                boolean - stores values with two states: true or false
+                            </li>
+                        </ul>
+                </p>
+           </section>
+
+</main>
+</div>
+      
+</div>
+
+</body>
+</html>
+

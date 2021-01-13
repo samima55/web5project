@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Shadows+Into+Light&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	background: #E6F1AC !important;
+}
+
+header{
+	width: 100%;
+	height: auto;
+	position:fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-style: solid; 
+     border-width: 1.5px; 
+    border-color: white; 
+    background-color: #F1EA50;
+
+}
+
+h1{
+	font-family: 'Shadows Into Light', cursive;
+	color: black;
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.nav-link-ul li {
+	display: inline-block;
+	padding: 4px;
+	background-color: #F1EEAC;
+    border-radius:2%; 
+}
+
+.nav-link-ul li a:hover {
+	color: black;
+	font-size: 20px;
+}
+
+
+#welcome-section{
+	height: 70vh;
+	display: flex;
+   align-items: center;
+   justify-content: center;
+   background:#CBF1AC;
+   
+}
+
+#welcome-section h1 {
+	font-weight: bold;
+}
+
+#navbar{
+	position: fixed;
+}
+
+#col-pad{
+	padding: 10px;
+	margin: 10px;
+}
+#projects{
+	background: #C5DFB3;
+}
+#pro-sec h2{
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+}
+
+.project{
+  display: inline-block;
+  overflow: hidden;
+  background-color: #F1E650;
+  border: 3px solid #F1E650;
+  height: 250px;
+  width: auto;
+  margin: 1em;
+  padding-bottom: 1em;
+}
+.project img{
+  max-height: 200px;
+  width: auto;
+}
+
+#social-media-links{
+	background: #BFE3FC;
+	
+}
+
+#social-media-links h3{
+text-align: center;
+padding: 20px;
+}
+
+#ffc{
+	padding: 3px;
+	background: black;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 10%
+}
+#ffc a {
+	color: white;
+}
+
+#in{
+	padding: 3px 12px 2px 12px;
+	background: darkblue;
+	margin-bottom: 10px;
+	border-radius: 10%
+}
+#in a {
+	color: white;
+}
+
+#gh{
+	padding: 3px 12px 2px 12px;
+	background: darkgreen;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 10%
+}
+
+#gh a{
+	color: white;
+}
+
+
+footer{
+	background: #F1EA50;
+	text-align: center;
+}

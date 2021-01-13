@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Itim&family=Shadows+Into+Light&display=swap');
+
+body{
+	background-color: #D0D8E7;
+
+}
+
+h1 ,h2 {
+  font-family: 'Itim', cursive;
+}
+  img{
+  	 width: 80%;
+  }
+
+ /* start of the header*/
+#top-head{
+	height: 100px;
+  background-color: #eec0c6;
+   background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+#title{
+	padding-top: 30px;
+	text-align: center;
+	font-family:'Courgette', cursive;
+	font-weight: bolder;
+	font-size: 30px;
+}
+/*  end of the header*/
+  
+    /*nav starts heare*/
+#nav-div{
+	border-radius:10px;
+	background-color: #BBCAE8;
+	
+}
+ #nav-bar{
+ 	position: fixed;
+ 	 z-index: 2;
+ }
+#nav-head{
+	text-align: center;
+   padding: 10px;
+   font-family:'Courgette', cursive;
+   font-weight: bolder;
+   font-size: 20px;
+}
+
+nav ul li{
+	list-style: none;
+	border-bottom: 1px solid white;
+}
+  /*nav ends here*/
+
+
+.main-section{
+	background-color: #EDF6BB;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+code{
+	color:darkblue;
+	font-size: 15px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .content, nav {
+    flex: 0 0 100%;
+    background-color: #BBCAE8;
+   }
+   .row {
+      flex-wrap: wrap-reverse; 
+      flex-direction: column-reverse;
+   }
+ 
+
+
+
+  
